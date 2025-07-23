@@ -1,0 +1,5 @@
+num1=float(input("Enter fist number: "))
+num2=float(input("Enter second number: "))
+print("Sum of these two numbers is: ",num1+num2)
+print("Difference of these two numbers is: ", num1-num2 if num1>=num2 else num2-num1)
+print("Product o these two numbers is: ", num1*num2)
